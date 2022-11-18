@@ -20,7 +20,7 @@ requirements:
     - python >=3.6,<4.0
   run:
     - defusedxml
-    - fonttools>=4.34.0
+    - fonttools >=4.34.0
     - pillow >=6.2.2
     - python >=3.6,<4.0
 
