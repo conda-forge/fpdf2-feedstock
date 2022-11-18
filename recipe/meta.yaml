@@ -23,15 +23,19 @@ requirements:
     - fonttools >=4.34.0
     - pillow >=6.2.2
     - python >=3.7,<4.0
+    - svg.path
 
 test:
+  source_files:
+    - test
   imports:
     - fpdf
-    - fpdf.util
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys test
   requires:
     - pip
+    - pytest
 
 about:
   home: https://pyfpdf.github.io/fpdf2/
