@@ -1,5 +1,5 @@
 {% set name = "fpdf2" %}
-{% set version = "2.5.7" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fpdf2-{{ version }}.tar.gz
-  sha256: 89fa797215b250e2f3d2cf07b6e57a33644a5909cc2f7eb63bfb825d305b6927
+  sha256: 3bb19fa30a5b1d76fd1470a47464de5e0aa4cc1ca729613fdd1076817aeffe43
 
 build:
   number: 0
@@ -23,7 +23,6 @@ requirements:
     - fonttools >=4.34.0
     - pillow >=6.2.2
     - python >=3.7,<4.0
-    - svg.path
 
 test:
   imports:
