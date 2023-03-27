@@ -1,11 +1,11 @@
-About fpdf2
-===========
+About fpdf2-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fpdf2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pyfpdf.github.io/fpdf2/
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fpdf2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple PDF generation for Python
 
