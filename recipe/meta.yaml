@@ -1,5 +1,5 @@
 {% set name = "fpdf2" %}
-{% set version = "2.7.7" %}
+{% set version = "2.7.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fpdf2-{{ version }}.tar.gz
-  sha256: db1a2270c6f1d9d718d36f0862893c7844a2432f83ee77caa05770323ddc7fdd
+  sha256: 21733fe27cc75021e5a4d7d69de95e185adf9717b1f9b1e14aa27d277d5c10fd
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
   run:
     - defusedxml
     - fonttools >=4.34.0
-    - pillow >=6.2.2
+    - pillow >=6.2.2,!=9.2.*
     - python >=3.7,<4.0
 
 test:
