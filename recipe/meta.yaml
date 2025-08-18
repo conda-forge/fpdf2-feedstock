@@ -22,7 +22,7 @@ requirements:
   run:
     - defusedxml
     - fonttools >=4.34.0
-    - pillow >=6.2.2,!=9.2.*
+    - pillow >=8.0.0,!=9.2.*
     - python >={{ python_min }}
 
 test:
