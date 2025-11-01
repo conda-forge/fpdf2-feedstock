@@ -21,7 +21,9 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools >=61.0
+    - wheel
+    - fonttools
   run:
     - defusedxml
     - fonttools >=4.34.0
