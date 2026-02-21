@@ -29,6 +29,7 @@ requirements:
     - defusedxml
     - fonttools >=4.34.0
     - pillow >=8.3.2,!=9.2.*
+    - typing-extensions >=4.0
     - python >=${{ python_min }}
 
 tests:
