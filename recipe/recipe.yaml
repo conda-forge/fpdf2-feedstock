@@ -24,12 +24,10 @@ requirements:
     - setuptools >=61.0
     - wheel
     - fonttools
-    - typing-extensions >=4.0
   run:
     - defusedxml
     - fonttools >=4.34.0
     - pillow >=8.3.2,!=9.2.*
-    - typing-extensions >=4.0
     - python >=${{ python_min }}
 
 tests:
@@ -37,7 +35,9 @@ tests:
       imports:
         - fpdf
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Simple PDF generation for Python
